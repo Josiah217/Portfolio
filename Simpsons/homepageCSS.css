@@ -1,0 +1,70 @@
+.card{
+    
+    border: 2px solid black;
+    width:320px;
+    height:195px;
+    border-radius: 25px;
+    background-image: url(Images/Springfield.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 320px 195px;
+    overflow: hidden;
+    display: block;   
+     
+}
+.whole{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+    row-gap: 20px;
+    
+
+}
+hr{
+    border: 5px solid black;
+  border-radius: 5px;
+}
+h1{
+    font-size:50px; 
+    color: sandybrown;
+}
+body{
+    align-items: center;
+    text-align: center;
+    font-family: 'Homer Simpson Revised', sans-serif;
+    background-image: url(Images/us-capitol.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#profilePic{
+    padding-top: 40px;
+    width:100px;
+    height:150px;
+  
+}
+#infomation{
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+    
+    color: #FFDE59;
+    -webkit-text-stroke: .5px black;
+    text-align: left;
+    
+    
+}
+#profile{
+    float: right;
+    
+}
+
+td{
+    font-size:20px; 
+}
+
+table {
+    
+    border-spacing: 1px;
+    
+  }

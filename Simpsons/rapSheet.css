@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    background-image: url(Images/dirty-old-paper-2.jpg);
+    background-size:contain;
+    background-repeat:repeat;
+    font-family: 'Homer Simpson Revised', sans-serif;
+    color: #FFDE59;
+    min-width: 1100px;
+}
+
+#column{
+    width: 25%;
+    position: relative;
+    
+
+}
+
+#top{
+    display: flex;
+}
+table{
+    width: 100%;
+    
+}
+td{
+    overflow-x: hidden;
+    height: 40px;
+    font-size: 30px;
+    border-style: inset;
+    border: 1;
+    empty-cells:show;
+    -webkit-text-stroke: .75px black;
+
+    
+}
+#XLcolumn{
+    height: 90px;
+}
+#header{
+    background-color: black;
+}
+.columnCount{
+    width: 5%;
+    
+}
+.columnCharge{
+    width: 45%;
+    
+
+}
