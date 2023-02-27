@@ -1,13 +1,13 @@
 .card{
     
     border: 2px solid black;
-    width:320px;
-    height:195px;
+    width:340px;
+    height:215px;
     border-radius: 25px;
     background-image: url(Images/Springfield.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 320px 195px;
+    background-size: 340px 215px;
     overflow: hidden;
     display: block;   
      
