@@ -1,0 +1,307 @@
+/* -----------------Body styles below------------- */
+
+body {
+    background-color: #DDD9D5;
+    position:relative;
+    min-height: 100vh;
+    padding-bottom:118px;
+    
+}
+
+/* ----------------body styles above------------------- */
+
+/* ------------page containers below---------------- */
+
+/* .body_wrapper{
+    position:relative;
+    min-height:100vh;
+}
+
+.content_wrapper{
+    padding-bottom: 120px;
+} */
+
+/* --------------page containers above------------------ */
+
+/* everything below is for the navbar */
+
+.bar-at-top {
+    background-color: #5C534A;
+    height: 35px;
+    width: 100%;
+    color: black;
+}
+
+.topper {
+    background-color: #392000;
+    height: 160px;
+    display: flex;
+    margin-top:62px;
+}
+
+.navbar-brand {
+    margin: auto 0;
+}
+
+.logo {
+    width: 140px;
+}
+
+.school-name {
+    color: #AA865B;
+}
+
+.background-color {
+    background-color: #AA865B;
+}
+
+
+/* ---------------everything above is for the navbar ---------------*/
+
+/* ---------------Calendar Page below ---------------*/
+
+.calendarBox{
+    display: flex;
+    justify-content:center;
+    margin-bottom:20px;
+    height:600px;
+}
+
+.calendarBox iframe{
+    height:100%;
+    width: 75%;
+}
+
+
+
+
+/* ---------------Calendar Page above ---------------*/
+
+
+/* This is for the about us page */
+
+
+.about-us-body {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#vidTitle {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom:5%;
+    margin-top: 5%;
+    text-shadow: 1px 1px 1px #392000;
+    color:#5C534A;
+}
+
+.videoBlock {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    border: 1px solid #392000;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #5C534A;
+    margin-bottom:7%;
+}
+
+.videoBlock iframe{
+    width: 100%;
+    min-height:500px;
+    padding: 2% 10%;
+}
+
+ #vidDescription {     /*  p element inside of box */
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-count: 3;
+    padding-left: 30px;
+}
+
+.cardsBlock{
+    margin-top:7%;
+    width:100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardsBlock img{
+    width: 40%;
+    border-radius:25%;
+    margin-bottom:5%;
+}
+
+.picBlock {
+    display: flex;
+    flex-direction: row;
+    background-image: url(Images/background.jpg);
+}
+
+.textBlock {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 75px;
+}
+/* -------------------about us page above-------------------- */
+
+
+/* ---------------"who we are" page below------------------ */
+
+.who_we_are
+{
+    display:flex;
+    
+}
+
+.curriculum
+{
+    border-radius:25px;
+    outline-offset: 4px;
+    justify-content:center;
+    margin: 5% 10% auto 10%;
+}
+
+.curriculum h1 
+{
+    text-shadow: 1px 1px 1px #392000;
+    color:#5C534A;
+    margin-bottom:30px;
+}
+.curriculum a
+{   
+    color: #5C534A
+    
+}
+.curriculum a:hover
+{
+    color: #AA865B;
+    text-shadow: 1px 1px 1px #392000;
+}
+
+.who_we_are_pics
+{
+    display:flex;
+    margin-bottom:86px;
+    justify-content:space-evenly;
+    padding: 5%;
+
+
+}
+
+.who_we_are_pics figure
+{
+    justify-content:space-between;
+    width:40%;
+    height:80vh;
+}
+
+.who_we_are_pics img
+{
+    object-fit: fill;
+    width:100%;
+    height:100%;
+    border-radius:25%;
+}
+
+
+
+/*----------------"who we are" page above------------------*/
+
+
+/* ----------------footer is below ---------------- */
+
+
+.footer {
+    color: #AA865B;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #392000;
+    padding: 8px 0 5px 0px;
+    border: solid;
+    flex-basis: 100vw;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    font-family: Georgia, 'Times New Roman', Arial;
+    font-size:1.2rem;
+}
+
+.footer p {
+    align-self: center;
+    padding: 0 0;
+    margin: 2px 0;
+    text-align: center;
+}
+
+.footer-link-list {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0 5px 0;
+}
+
+.footer a {
+    color: #AA865B;
+    /* text-decoration:none; */
+}
+
+.footer li {
+    margin: 0px 20px;
+}
+
+
+/* -----------footer is above ----------------- */
+
+/* ----------------index styling below-------------- */
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex: 1;
+    width: 100%;
+}
+
+.columns {
+    padding: 10%;
+    flex: 3;
+    border: 1px solid;
+    margin: 15px;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* ---------------index styling above----------------- */
+
+
+/*START APPLY NOW STYLING*/
+
+.warning{
+    color: #712b29;
+    background-color: #f7dddc;
+    border: 2px solid #f4cfce;
+    width: 100%;
+    padding: 0px 5px 0px 100px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+

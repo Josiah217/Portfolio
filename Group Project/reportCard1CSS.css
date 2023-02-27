@@ -1,0 +1,184 @@
+/* -----------------Body styles below------------- */
+
+._body {
+  background-color: #DDD9D5;
+  position:relative;
+  min-height: 100vh;
+  padding-bottom:120px;
+}
+
+/* ----------------body styles above------------------- */
+
+/* everything below is for the navbar */
+
+.bar-at-top {
+  background-color: #5C534A;
+  height: auto;
+  width: auto;
+}
+
+.topper {
+  background-color: #392000;
+  margin-top: 62px;
+  height: 160px;
+  display: flex;
+  margin-bottom:20px;
+}
+
+.navbar-brand {
+  margin: auto 0;
+}
+
+.logo {
+  width: 140px;
+}
+
+.school-name {
+  color: #AA865B;
+}
+
+.background-color {
+  background-color: #AA865B;
+}
+
+
+/* ---------------everything above is for the navbar ---------------*/
+
+
+
+ 
+
+  td{
+    
+    padding: 10px;
+    width: 40%;
+    height: 40%;
+    border: 1px solid black;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+
+  }
+
+  .center{
+    align-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0 15px 0px;
+    display: block;
+
+  }
+
+  #profile{
+    width : 450px;
+    height: 300px;
+  }
+  table{
+
+    padding: 2%;
+    
+    
+    margin-top: 2%;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 2%;
+    
+    display: flex;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    table-layout: fixed;
+    border-collapse: separate;
+    border: 2px solid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    background-color: #e9e7e5;
+    box-shadow: 0 0 4px #ccc;
+    flex-wrap: wrap;
+    
+
+
+  }
+  tr{
+
+    font-size: x-large;
+    
+    
+    
+  }
+
+
+  #myBtn{
+    padding: 30px;
+    font-size: x-large;
+    border: 2px solid;
+    text-shadow: 0 0 4px #ccc;
+    
+  }
+
+  #tableHeader{
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+
+  .body1{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    
+    
+  }
+
+
+/* ----------------footer is below ---------------- */
+
+
+.footer {
+  color: #AA865B;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  background-color: #392000;
+  padding: 8px 0 5px 0px;
+  border: solid;
+  flex-basis: 100vw;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20%;
+  font-family: Georgia, 'Times New Roman', Arial;
+  font-size:1.2rem;
+  
+}
+
+.footer p {
+  align-self: center;
+  padding: 0 0;
+  margin: 2px 0;
+  text-align: center;
+}
+
+.footer-link-list {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0 5px 0;
+}
+
+.footer a {
+  color: #AA865B;
+  /* text-decoration:none; */
+}
+
+.footer li {
+  margin: 0px 20px;
+}
+
+
+
+
+/* -----------footer is above ----------------- */
